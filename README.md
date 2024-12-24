@@ -12,7 +12,7 @@ Manually checking product prices frequently is inconvenient and impractical, esp
 
 ## How It Works  
 1. **Product Tracker Setup**: The framework allows users to create tracker instances for specific Amazon product URLs.  
-2. **Web Scraping**: The framework utilizes `requests` and `BeautifulSoup` to scrape the product's current price and title from the Amazon webpage.  
+2. **Web Scraping**: The framework utilizes `aiohttp` and `BeautifulSoup` to scrape the product's current price and title from the Amazon webpage.  
 3. **Price Retrieval**: The extracted price is processed and returned for further use, such as notifications or logging.  
 4. **Scalable Design**: The refactored class structure supports tracking multiple products simultaneously and offers easier integration with external systems.  
 
