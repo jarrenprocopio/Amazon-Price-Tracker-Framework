@@ -25,7 +25,10 @@ Manually checking product prices frequently is inconvenient and impractical, esp
 - **Framework Highlights**:  
   - **Class-Based Design**: Refactored from a script to a `Tracker` class, which encapsulates functionality for modularity and scalability.  
   - **Price Extraction**: Retrieves and processes product prices for comparison or logging.  
-  - **Product Title Extraction**: Extracts and displays the product name for identification.  
+  - **Product Title Extraction**: Extracts and displays the product name for identification.
+
+  ![amazonpricetrackerdiagram](https://github.com/user-attachments/assets/447bd2f7-ffe7-4e5a-a37d-2f4143536763)
+
 
 ## Acknowledgements  
 This project builds upon the initial work of [Omerhalid](https://github.com/omerhalid/Amazon-Price-Tracker), whose script for scraping Amazon product prices provided a helpful foundation for web scraping functionality. While the original work focused on a single-product script, this version introduces a class-based design and extensibility to support broader use cases.  
