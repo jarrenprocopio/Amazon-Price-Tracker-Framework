@@ -18,7 +18,7 @@ Manually checking product prices frequently is inconvenient and impractical, esp
 
 ## Code Explanation  
 - **Libraries Used**:  
-  - `requests`: For sending HTTP requests to the Amazon product page.  
+  - `aiohttp`: For sending HTTP requests to the Amazon product page asynchronously.  
   - `BeautifulSoup` from `bs4`: For parsing HTML and extracting product data.  
   - `lxml`: A parser used by BeautifulSoup for handling the HTML.  
 
